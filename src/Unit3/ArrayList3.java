@@ -18,7 +18,7 @@ public class ArrayList3 {
         products.addLast("Lichi");
         products.addFirst("Apple");
         products.add(3,"Papaya");
-        Collections.sort(products);
+        //Collections.sort(products);
         System.out.println(products);
         System.out.println(products.getFirst());
         System.out.println(products.getLast());
