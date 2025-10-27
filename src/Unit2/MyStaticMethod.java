@@ -4,6 +4,9 @@ public class MyStaticMethod {
     public static void main(String[] args) {
 //        Sayable sayable = MethodReference::saysomething;
 //        sayable.say();
-        MethodReference obj =
+        MethodReference obj = new MethodReference();
+        Sayable sayable = obj::saysomething;
+        sayable.say();
+        sayable.saySomething();
     }
 }
